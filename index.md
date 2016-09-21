@@ -20,7 +20,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 3. *(3pts)* Solve the **recurrence**:
   \` T(n) = 8T(n/2) + 3n^3 + n^2 log n \`
 
-4. *(3pts)* Demonstrate **maximum subarray** on the following input:
+4. *(3pts)* Demonstrate **maximum subarray** on the following input: <br/>
   `[ 6, -5, 4, -1, -2, 4, 0, -3, 2, 3 ]`
 
 5. *(4pts)* *[analysis of random algos]*
