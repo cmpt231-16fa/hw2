@@ -23,4 +23,9 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 4. *(3pts)* Demonstrate **maximum subarray** on the following input: <br/>
   `[ 6, -5, 4, -1, -2, 4, 0, -3, 2, 3 ]`
 
-5. *(4pts)* *[analysis of random algos]*
+5. *(4pts)* Recall that the best-case running time of **insertion sort**
+  was &Theta;(n), although the worst-case was \`Theta(n^2)\`.
+  Design (e.g., pseudocode) a **randomised** version of insertion sort
+  that shuffles the input prior to running the sort.
+  Discuss (provide reasoning, but need not be a formal proof) the
+  **running time** of your randomised insertion sort.
