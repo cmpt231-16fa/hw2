@@ -33,7 +33,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
     This is a geometric series, with solution
     \` T(n) = n ((1-(3/4)^(text(lg) n+1))/(1 - (3/4))) \`.
     This simplifies to
-    \` T(n) = 4n ( 1 - (3/4)(3/4)^(text(lg) n) ) \`.
+    \` T(n) = 4n ( 1 - (3/4)^(text(lg) n+1) ) \`.
     Since 3/4 &lt; 1, this is within O(n).
     Our guess is T(n) = O(n).
     (Contrast with merge sort, where the base of the exponential is 1, not 3/4.)
