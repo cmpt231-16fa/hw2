@@ -7,7 +7,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 ### HW2 Solutions (20pts)
 
-+ 1. *(4pts)* Demonstrate **merge sort**:
++ (1) *(4pts)* Demonstrate **merge sort**:
 
   | p | r | A[0] | A[1] | A[2] | A[3] | A[4] | A[5] | A[6] | A[7] |
   |---|---|------|------|------|------|------|------|------|------|
@@ -23,7 +23,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   | 4 | 7 |  --  |  --  |  --  |  --  |   9  |  17  |  23  |  75  |
   | 0 | 7 |   9  |  17  |  23  |  35  |  44  |  50  |  61  |  75  |
 
-+ 2. Consider the recurrence: \` T(n) = T(n/2) + T(n/4) + O(n) \`.
++ (2) Consider the recurrence: \` T(n) = T(n/2) + T(n/4) + O(n) \`.
   + a. *(3pts)* **Guess** a solution to the recurrence, showing your work.
 
     Drawing a recursion tree, we see that at each level of recursion,
@@ -55,13 +55,13 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
     Then \` forall n > n\_0, T(n) <= c\_0 n \`, i.e., T(n) = O(n).
 
-+ 3. *(3pts)* Solve the **recurrence**:
++ (3) *(3pts)* Solve the **recurrence**:
   \` T(n) = 8T(n/2) + 3n^3 + n^2 log n \`
 
   Master method, case 1:
   \` f(n) = 3n^3 + n^3 log n = Theta(n^3) = Theta(n^(log\_2 8)) = Theta(n^log\_b a)) \`
 
-+ 4. *(3pts)* Demonstrate **maximum subarray** on the following input:
++ (4) *(3pts)* Demonstrate **maximum subarray** on the following input:
 
   As in the textbook, we assume midpoints are calculated as *floor* of
   average of low and high. 
@@ -78,7 +78,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   |  6 | 10 |  6  | -- | -- | -- | -- | -- |  4 |  0 | -3 |  2 |  3 |
   |  1 | 10 |  8  |  6 | -5 |  4 | -1 | -2 |  4 |  0 | -3 |  2 |  3 |
 
-+ 5. *(4pts)* **Randomised insertion sort**:
++ (5) *(4pts)* **Randomised insertion sort**:
 
   Since the worst-case and average-case times for insertion sort were already
   the same \`(Theta(n^2))\`, the shuffle doesn't benefit us; there weren't any
