@@ -7,7 +7,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 {% include policies.md %}
 
-### HW2 (20pts)
+### HW2 (20pts) [(solutions)](solns)
 
 1. *(4pts)* Demonstrate **merge sort** on the following array of integers
   (same as in HW1).  Show as much work as you can.
