@@ -45,8 +45,10 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
     \` exists n\_1, n\_2, n\_3, c\_1, c\_2, c\_3:
     forall n > text(max)(n\_1, n\_2, n\_3), \`
+
     \` T(n/2) <= c\_1 n/2 \`, \` T(n/4) <= c\_2 n/4 \`, and
     \` T(n) <= T(n/2) + T(n/4) + c\_3 n\`.
+
     So \` T(n) <= c\_1 n/2 + c\_2 n/4 + c\_3 n \`
     \` = (c\_1/2 + c\_2/4 + c\_3)n \`.
 
@@ -59,7 +61,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   \` T(n) = 8T(n/2) + 3n^3 + n^2 log n \`
 
   Master method, case 1:
-  \` f(n) = 3n^3 + n^3 log n = Theta(n^3) = Theta(n^(log\_2 8)) = Theta(n^log\_b a)) \`
+  \` f(n) = 3n^3 + n^3 log n = Theta(n^3) = Theta(n^(log\_2 8)) = Theta(n^(log\_(b) a)) \`
 
 + (4) *(3pts)* Demonstrate **maximum subarray** on the following input:
 
