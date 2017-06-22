@@ -48,6 +48,12 @@ footer-links-active:
   github: true
   linkedin: false
   stackoverflow: false
+  
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -80,6 +86,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts 
       show-share: true # add sharing buttons to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
