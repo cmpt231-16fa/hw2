@@ -1,23 +1,20 @@
 # --- General options --- #
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
-baseurl: ""
-
-# If you are building a GitHub project page then use these settings:
-url: "https://cmpt231-16fa.github.io/hw1"
-baseurl: "/hw1"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
 # Name of website
 title: "HW1 CMPT231 16FA"
 
 # Short description of your site
 description: ""
+
+# --- Local development options ---
+# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
+# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
+
+# url is the the website domain URL without a trailing slash
+url: "https://cmpt231-16fa.github.io/hw1"
+
+# baseurl should be an empty string
+baseurl: "/hw1"
 
 # --- Navigation bar options --- #
 
@@ -71,7 +68,6 @@ social-network-links:
   email: "twu@seanho.com"
   github: cmpt231-16fa
 #  reddit: yourname
-#  google-plus: +DeanAttali
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -88,7 +84,6 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -96,6 +91,9 @@ share-links-active:
 url-pretty: "cmpt231.seanho.com/hw1"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -112,9 +110,29 @@ url-pretty: "cmpt231.seanho.com/hw1"  # eg. "deanattali.com/beautiful-jekyll"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-# --- Misc --- #
+# --- Comments --- #
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+# disqus: ""
+
+# If you want to use JustComments fill with the API Key
+#just-comments: "ABCD-EFGH-IJKL"
+
+# To use Facebook Comments, fill in a Facebook App ID
+# fb_comment_id: ""
+
+# To use Staticman comments, fill in repository, branch, and endpoint
+staticman:
+  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  reCaptcha:
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+    # If you use reCaptcha, you must also set these parameters in staticman.yml
+    siteKey  : # Use your own site key, you need to apply for one on Google
+    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# --- Misc --- #
 
 # Facebook App ID
 # fb_app_id: ""
@@ -126,6 +144,9 @@ excerpt_length: 50
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
 title-separator: "-"
+
+# Ruby Date Format
+date_format: "%B %-d, %Y"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
