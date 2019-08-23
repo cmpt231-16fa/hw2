@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: "HW1 CMPT231 16FA"
+title: "HW2 CMPT231 16FA"
 
 # Short description of your site
 description: ""
@@ -11,10 +11,10 @@ description: ""
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-url: "https://cmpt231-16fa.github.io/hw1"
+url: "https://cmpt231-16fa.github.io/hw2"
 
 # baseurl should be an empty string
-baseurl: "/hw1"
+baseurl: "/hw2"
 
 # --- Navigation bar options --- #
 
